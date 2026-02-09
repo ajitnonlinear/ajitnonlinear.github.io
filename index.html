@@ -15,6 +15,7 @@
       line-height: 1.6;
     }
 
+    /* === Animated Background Canvas === */
     #bg-network {
       position: fixed;
       top: 0;
@@ -35,15 +36,16 @@
     .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; }
     section { margin-bottom: 3rem; }
 
-    h2 {
-      display: inline-block;
-      padding: 0.3rem 0.8rem;
-      margin-bottom: 1rem;
-      color: #f8fafc;
-      background: linear-gradient(90deg, #1e293b, #0f172a);
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.35);
-    }
+   h2 {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+  background: linear-gradient(90deg, #1e293b, #0f172a);
+  border-radius: 8px;
+  border-bottom: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
 
     ul { padding-left: 1.2rem; }
 
@@ -74,6 +76,7 @@
 
 <body>
 
+<!-- === Background Canvas === -->
 <canvas id="bg-network"></canvas>
 
 <header>
@@ -93,14 +96,27 @@
 
 <div class="container">
 
+<!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
   <div class="card">
     <p>
-      I am currently a <strong>Postdoctoral Fellow</strong> in the Division of Dynamics, Department of Mechanical Engineering at
-      <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology, Poland</a>.
-      My research focuses on <strong>machine learning for complex dynamical systems</strong>, extreme events, synchronization,
-      and reservoir computing under partial observability.
+      I am currently a <strong>Postdoctoral Fellow</strong> in the Division of Dynamics, Department of Mechanical Engineering at 
+      <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology, Poland</a>. 
+      My present research focuses on <strong>machine learning for complex dynamical systems</strong>, with particular emphasis on 
+      <strong>extreme events, synchronization phenomena, partial observability, and reservoir computing</strong>. 
+      I work on predicting critical transitions such as cluster and global synchronization in networks of nonlinear oscillators 
+      using data-driven approaches validated on both numerical and experimental datasets.
+    </p>
+
+    <p>
+      Previously, as a <strong>Postdoctoral Fellow at IISER Pune</strong>, I developed reservoir computing–based frameworks for 
+      predicting chaotic dynamical systems under partial observation, demonstrating accurate short-term prediction and faithful 
+      reconstruction of long-term attractor dynamics. My <strong>Ph.D. research at NIT Sikkim</strong> focused on nonlinear 
+      time-series analysis and modeling of financial markets, where I investigated multiscale time horizons, structural breaks, 
+      and extreme events such as market crashes using tools from statistical physics. 
+      Broadly, my research interests span <strong>data-driven dynamical systems, extreme-event prediction, physics-informed 
+      machine learning</strong>, and emerging directions in <strong>quantum-enhanced learning</strong> for complex systems.
     </p>
 
     <div class="links">
@@ -110,117 +126,140 @@
   </div>
 </section>
 
+<!-- RESEARCH -->
 <section id="research">
   <h2>Research Interests</h2>
   <div class="card">
     <ul>
       <li>Machine learning for nonlinear and chaotic dynamical systems</li>
-      <li>Extreme events and critical transition prediction</li>
-      <li>Reservoir computing and partial observability learning</li>
-      <li>Synchronization and network dynamics</li>
-      <li>Financial time-series and crisis modeling</li>
+      <li>Extreme events, rare-event prediction, and critical transitions</li>
+      <li>Reservoir computing and learning under partial observability</li>
+      <li>Synchronization, cluster dynamics, and networked oscillators</li>
+      <li>Financial market dynamics, time-scale analysis, and crisis modeling</li>
     </ul>
   </div>
 </section>
 
+<!-- RESEARCH EXPERIENCE -->
 <section id="research-experience">
   <h2>Research Experience</h2>
   <div class="card">
 
     <p>
-      <strong>Postdoctoral Fellow</strong>, Sep 2024 – Present<br>
+      <strong>Postdoctoral Fellow</strong>, Sep, 2024 – Present<br>
       <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology</a>, Poland
     </p>
-    <ul>
-      <li>Developing ML and reservoir computing methods to predict extreme events and synchronization transitions in nonlinear dynamical systems.</li>
-    </ul>
     <p>
-      <em>Research Advisor:</em>
-      <a href="https://www.dynamics.p.lodz.pl/" target="_blank">Prof. Tomasz Kapitaniak</a>
+      Development of machine learning and reservoir computing methods to predict extreme events and identify synchronization and coexisting dynamical states in nonlinear systems using partial observations.
+    </p>
+    <p>
+      Research Advisors:
+      <a href="https://www.dynamics.p.lodz.pl/" target="_blank">Prof. Tomasz Kapitaniak</a>,
+      Division of Dynamics, Department of Mechanical Engineering, Lodz University of Technology, Poland
     </p>
 
     <p>
-      <strong>Research Associate-II</strong>, Nov 2023 – Sep 2024<br>
-      <a href="https://www.iiserpune.ac.in/" target="_blank">IISER Pune</a>, India
+      <strong>Research Associate-II</strong>, Nov, 2023 – Sep, 2024<br>
+      <a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research Pune</a>, India
     </p>
-    <ul>
-      <li>Worked on bone-age assessment using X-ray images with segmentation, registration, and Siamese deep learning models.</li>
-    </ul>
     <p>
-      <em>Research Advisor:</em>
-      <a href="https://www.iiserpune.ac.in/people/faculty" target="_blank">Dr. Pranay Goel</a>
+      Bone age assessment using hand-wrist X-ray images via machine learning including segmentation, image registration, and Siamese neural networks.
+    </p>
+    <p>
+      Research Advisors:
+      <a href="https://www.iiserpune.ac.in/people/faculty" target="_blank">Dr. Pranay Goel</a>,
+      Department of Biology, IISER Pune, India
     </p>
 
     <p>
-      <strong>Postdoctoral Fellow</strong>, Dec 2021 – Nov 2023<br>
-      <a href="https://www.iiserpune.ac.in/" target="_blank">IISER Pune</a>, India
+      <strong>Postdoctoral Fellow</strong>, Dec, 2021 – Nov, 2023<br>
+      <a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research Pune</a>, India
     </p>
-    <ul>
-      <li>Developed reservoir computing frameworks to reconstruct full chaotic system states from partial observations using numerical and experimental data.</li>
-    </ul>
     <p>
-      <em>Research Advisor:</em>
-      <a href="https://www.iiserpune.ac.in/people/faculty" target="_blank">Prof. Amit Apte</a>
+      Prediction and reconstruction of full states of chaotic dynamical systems (Chua’s and Lorenz systems) from partial observations using reservoir computing with numerical and experimental datasets.
+    </p>
+    <p>
+      Research Advisors:
+      <a href="https://www.iiserpune.ac.in/people/faculty" target="_blank">Prof. Amit Apte</a>,
+      Department of Data Science, IISER Pune, India
     </p>
 
   </div>
 </section>
 
+<!-- EDUCATION -->
 <section id="education">
   <h2>Education</h2>
   <div class="card">
     <p>
       <strong>Ph.D. in Physics</strong>, 2022<br>
-      <a href="https://nitsikkim.ac.in/" target="_blank">NIT Sikkim</a>, India
+      <a href="https://nitsikkim.ac.in/" target="_blank">National Institute of Technology Sikkim</a>, Sikkim, India
     </p>
+
     <p>
       <strong>M.Sc. in Physics</strong>, 2016<br>
-      <a href="https://nitdgp.ac.in/" target="_blank">NIT Durgapur</a>, India
+      <a href="https://nitdgp.ac.in/" target="_blank">National Institute of Technology Durgapur</a>, West Bengal, India
     </p>
+
     <p>
       <strong>B.Sc. in Physics</strong>, 2014<br>
-      <a href="https://www.caluniv.ac.in/" target="_blank">University of Calcutta</a>, India
+      <a href="https://www.caluniv.ac.in/" target="_blank">University of Calcutta</a>, West Bengal, India
     </p>
   </div>
 </section>
 
+<!-- CV -->
 <section id="cv">
   <h2>Curriculum Vitae</h2>
   <div class="card">
-    <a href="Ajit_Mahata_CV.pdf" target="_blank" style="font-weight:600; color:#2563eb;">
-      Download CV (PDF)
-    </a>
+    <p>
+      A detailed academic CV including my research experience, publications, teaching activities, and technical skills 
+      is available below.
+    </p>
+    <p>
+      <a href="Ajit_Mahata_CV.pdf" target="_blank" style="font-weight:600; color:#2563eb;">
+        Download CV (PDF)
+      </a>
+    </p>
   </div>
 </section>
 
+<!-- PUBLICATIONS -->
 <section id="publications">
   <h2>Selected Publications</h2>
   <div class="card">
     <ul>
-      <li>Learning transitions to extreme events using reservoir computing, PRE, 2025.</li>
-      <li>Echo state prediction horizon for partially observed systems, PRE, 2023.</li>
-      <li>Sentiment-based stock market modeling during COVID-19, Physica A, 2022.</li>
-      <li>2020 stock market crash extreme event analysis, Chaos, 2021.</li>
-      <li>Time-scale identification in stock markets, Physica A, 2020.</li>
+      <li><b>Learning transitions to extreme events using reservoir computing</b>, Physical Review E, 2025.</li>
+      <li><b>Variability of echo state network prediction horizon for partially observed dynamical systems</b>, Physical Review E, 2023.</li>
+      <li><b>A sentiment-based modeling and analysis of stock price during COVID-19</b>, Physica A, 2022.</li>
+      <li><b>Characteristics of 2020 stock market crash: COVID-19 induced extreme event</b>, Chaos, 2021.</li>
+      <li><b>Identification of short-term and long-term time scales in stock markets</b>, Physica A, 2020.</li>
     </ul>
+    <p>
+      For a complete list, see my 
+      <a href="https://scholar.google.com/citations?user=OQ1g55YAAAAJ" target="_blank">Google Scholar profile</a>.
+    </p>
   </div>
 </section>
 
+<!-- TEACHING -->
 <section id="teaching">
   <h2>Teaching Experience</h2>
   <div class="card">
     <ul>
-      <li>TA – Time Series Analysis, IISER Pune</li>
-      <li>TA – Statistical Learning and Data Science, IISER Pune</li>
-      <li>TA – Engineering Physics, NIT Sikkim</li>
+      <li>Teaching Assistant – <b>Time Series Analysis</b>, IISER Pune</li>
+      <li>Teaching Assistant – <b>Statistical Learning and Data Science</b>, IISER Pune</li>
+      <li>Teaching Assistant – <b>Engineering Physics</b>, NIT Sikkim</li>
     </ul>
   </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
   <div class="card">
     <p><b>Email:</b> ajitnonlinear@gmail.com | ajit.mahata@p.lodz.pl</p>
+    <p><b>Affiliation:</b> Lodz University of Technology, Poland</p>
   </div>
 </section>
 
