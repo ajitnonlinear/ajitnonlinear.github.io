@@ -36,17 +36,16 @@
     .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; }
     section { margin-bottom: 3rem; }
 
-   h2 {
-  display: inline-block;
-  padding: 0.3rem 0.8rem;
-  margin-bottom: 1rem;
-  color: #f8fafc;
-  background: linear-gradient(90deg, #1e293b, #0f172a);
-  border-radius: 8px;
-  border-bottom: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
-}
-
+    h2 {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      margin-bottom: 1rem;
+      color: #f8fafc;
+      background: linear-gradient(90deg, #1e293b, #0f172a);
+      border-radius: 8px;
+      border-bottom: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+    }
 
     ul { padding-left: 1.2rem; }
 
@@ -86,6 +85,7 @@
   <nav>
     <a href="#about">About</a>
     <a href="#research">Research</a>
+    <a href="#research-experience">Research Experience</a>
     <a href="#education">Education</a>
     <a href="#cv">CV</a>
     <a href="#publications">Publications</a>
@@ -101,21 +101,21 @@
   <h2>About Me</h2>
   <div class="card">
     <p>
-      I am currently a <strong>Postdoctoral Fellow</strong> in the Division of Dynamics, Department of Mechanical Engineering at 
-      <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology, Poland</a>. 
-      My present research focuses on <strong>machine learning for complex dynamical systems</strong>, with particular emphasis on 
-      <strong>extreme events, synchronization phenomena, partial observability, and reservoir computing</strong>. 
-      I work on predicting critical transitions such as cluster and global synchronization in networks of nonlinear oscillators 
+      I am currently a <strong>Postdoctoral Fellow</strong> in the Division of Dynamics, Department of Mechanical Engineering at
+      <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology, Poland</a>.
+      My present research focuses on <strong>machine learning for complex dynamical systems</strong>, with particular emphasis on
+      <strong>extreme events, synchronization phenomena, partial observability, and reservoir computing</strong>.
+      I work on predicting critical transitions such as cluster and global synchronization in networks of nonlinear oscillators
       using data-driven approaches validated on both numerical and experimental datasets.
     </p>
 
     <p>
-      Previously, as a <strong>Postdoctoral Fellow at IISER Pune</strong>, I developed reservoir computing–based frameworks for 
-      predicting chaotic dynamical systems under partial observation, demonstrating accurate short-term prediction and faithful 
-      reconstruction of long-term attractor dynamics. My <strong>Ph.D. research at NIT Sikkim</strong> focused on nonlinear 
-      time-series analysis and modeling of financial markets, where I investigated multiscale time horizons, structural breaks, 
-      and extreme events such as market crashes using tools from statistical physics. 
-      Broadly, my research interests span <strong>data-driven dynamical systems, extreme-event prediction, physics-informed 
+      Previously, as a <strong>Postdoctoral Fellow at IISER Pune</strong>, I developed reservoir computing–based frameworks for
+      predicting chaotic dynamical systems under partial observation, demonstrating accurate short-term prediction and faithful
+      reconstruction of long-term attractor dynamics. My <strong>Ph.D. research at NIT Sikkim</strong> focused on nonlinear
+      time-series analysis and modeling of financial markets, where I investigated multiscale time horizons, structural breaks,
+      and extreme events such as market crashes using tools from statistical physics.
+      Broadly, my research interests span <strong>data-driven dynamical systems, extreme-event prediction, physics-informed
       machine learning</strong>, and emerging directions in <strong>quantum-enhanced learning</strong> for complex systems.
     </p>
 
@@ -137,6 +137,52 @@
       <li>Synchronization, cluster dynamics, and networked oscillators</li>
       <li>Financial market dynamics, time-scale analysis, and crisis modeling</li>
     </ul>
+  </div>
+</section>
+
+<!-- RESEARCH EXPERIENCE -->
+<section id="research-experience">
+  <h2>Research Experience</h2>
+  <div class="card">
+    <p>
+      <strong>Postdoctoral Fellow</strong>, Sep 2024 – Present<br>
+      <a href="https://www.p.lodz.pl/en/" target="_blank">Lodz University of Technology</a>, Łódź, Poland
+    </p>
+    <ul>
+      <li>
+        Developing machine-learning frameworks (including reservoir computing) to predict extreme events in nonlinear dynamical
+        systems and experimental datasets under partial model identification.
+      </li>
+      <li>
+        Identifying coexisting states (coherent/incoherent/chimera-like) and forecasting cluster/global synchronization in
+        oscillator networks from partial observations.
+      </li>
+    </ul>
+    <p><em>Research Advisor:</em> Prof. Tomasz Kapitaniak</p>
+
+    <p>
+      <strong>Research Associate-II</strong>, Nov 2023 – Sep 2024<br>
+      <a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research (IISER) Pune</a>, Maharashtra, India
+    </p>
+    <ul>
+      <li>
+        Worked on bone-age assessment from hand–wrist X-ray images using machine learning, combining segmentation, registration,
+        and Siamese network–based pipelines.
+      </li>
+    </ul>
+    <p><em>Research Advisor:</em> Dr. Pranay Goel</p>
+
+    <p>
+      <strong>Postdoctoral Fellow</strong>, Dec 2021 – Nov 2023<br>
+      <a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research (IISER) Pune</a>, Maharashtra, India
+    </p>
+    <ul>
+      <li>
+        Developed reservoir computing approaches to reconstruct full system states from partial observations for chaotic systems
+        (Chua’s and Lorenz-63), using both numerical simulations and experimental Chua’s oscillator data.
+      </li>
+    </ul>
+    <p><em>Research Advisors:</em> Prof. Amit Apte</p>
   </div>
 </section>
 
@@ -166,7 +212,7 @@
   <h2>Curriculum Vitae</h2>
   <div class="card">
     <p>
-      A detailed academic CV including my research experience, publications, teaching activities, and technical skills 
+      A detailed academic CV including my research experience, publications, teaching activities, and technical skills
       is available below.
     </p>
     <p>
@@ -189,7 +235,7 @@
       <li><b>Identification of short-term and long-term time scales in stock markets</b>, Physica A, 2020.</li>
     </ul>
     <p>
-      For a complete list, see my 
+      For a complete list, see my
       <a href="https://scholar.google.com/citations?user=OQ1g55YAAAAJ" target="_blank">Google Scholar profile</a>.
     </p>
   </div>
